@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.Cypher.IndoorNav"
+5    android:installLocation="preferExternal"
+6    android:versionCode="1"
+7    android:versionName="0.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="28"
+10-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="29" />
+11-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml
+12
+13    <supports-screens
+13-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:3:3-163
+14        android:anyDensity="true"
+14-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:3:135-160
+15        android:largeScreens="true"
+15-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:3:78-105
+16        android:normalScreens="true"
+16-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:3:49-77
+17        android:smallScreens="true"
+17-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:3:21-48
+18        android:xlargeScreens="true" />
+18-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:3:106-134
+19
+20    <uses-feature android:glEsVersion="0x00020000" />
+20-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:19:3-52
+20-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:19:17-49
+21
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:20:3-63
+22-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:20:20-60
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:21:3-65
+23-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:21:20-62
+24
+25    <uses-feature
+25-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:22:3-83
+26        android:name="android.hardware.camera"
+26-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:22:17-55
+27        android:required="false" />
+27-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:22:56-80
+28    <uses-feature
+28-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:23:3-93
+29        android:name="android.hardware.camera.autofocus"
+29-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:23:17-65
+30        android:required="false" />
+30-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:23:66-90
+31    <uses-feature
+31-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:24:3-89
+32        android:name="android.hardware.camera.front"
+32-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:24:17-61
+33        android:required="false" />
+33-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:24:62-86
+34
+35    <uses-permission
+35-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:25:3-106
+36        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+36-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:25:20-76
+37        android:maxSdkVersion="18" />
+37-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:25:77-103
+38    <uses-permission
+38-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:26:3-105
+39        android:name="android.permission.READ_EXTERNAL_STORAGE"
+39-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:26:20-75
+40        android:maxSdkVersion="18" />
+40-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:26:76-102
+41
+42    <uses-feature
+42-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:27:3-88
+43        android:name="android.hardware.touchscreen"
+43-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:27:17-60
+44        android:required="false" />
+44-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:27:61-85
+45    <uses-feature
+45-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:28:3-99
+46        android:name="android.hardware.touchscreen.multitouch"
+46-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:28:17-71
+47        android:required="false" />
+47-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:28:72-96
+48    <uses-feature
+48-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:29:3-108
+49        android:name="android.hardware.touchscreen.multitouch.distinct"
+49-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:29:17-80
+50        android:required="false" />
+50-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:29:81-105
+51
+52    <application
+52-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:4:3-18:17
+53        android:banner="@drawable/app_banner"
+53-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:4:145-182
+54        android:icon="@mipmap/app_icon"
+54-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:4:58-89
+55        android:isGame="true"
+55-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:4:123-144
+56        android:label="@string/app_name"
+56-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:4:90-122
+57        android:theme="@style/UnityThemeSelector" >
+57-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:4:16-57
+58        <activity
+58-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:5:5-12:16
+59            android:name="com.Cypher.IndoorNav.UnityPlayerActivity"
+59-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:5:337-392
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+60-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:5:119-300
+61            android:hardwareAccelerated="false"
+61-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:5:301-336
+62            android:label="@string/app_name"
+62-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:5:15-47
+63            android:launchMode="singleTask"
+63-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:5:87-118
+64            android:screenOrientation="fullSensor" >
+64-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:5:48-86
+65            <intent-filter>
+65-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:6:7-10:23
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:7:9-61
+66-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:7:17-58
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:8:9-69
+68-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:8:19-66
+69                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+69-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:9:9-78
+69-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:9:19-75
+70            </intent-filter>
+71
+72            <meta-data
+72-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:11:7-82
+73                android:name="unityplayer.UnityActivity"
+73-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:11:18-58
+74                android:value="true" />
+74-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:11:59-79
+75        </activity>
+76
+77        <meta-data
+77-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:13:5-73
+78            android:name="unity.tango-enable"
+78-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:13:16-49
+79            android:value="True" />
+79-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:13:50-70
+80        <meta-data
+80-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:14:5-88
+81            android:name="unityplayer.SkipPermissionsDialog"
+81-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:14:16-64
+82            android:value="true" />
+82-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:14:65-85
+83        <meta-data
+83-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:15:5-101
+84            android:name="unity.build-id"
+84-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:15:16-45
+85            android:value="46920360-1676-4459-86d2-d7db1a9c66f3" />
+85-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:15:46-98
+86        <meta-data
+86-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:16:5-69
+87            android:name="unity.splash-mode"
+87-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:16:16-48
+88            android:value="0" />
+88-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:16:49-66
+89        <meta-data
+89-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:17:5-74
+90            android:name="unity.splash-enable"
+90-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:17:16-50
+91            android:value="True" />
+91-->C:\Users\xd2da\Desktop\School\EECS 159 Series\ZotFinder2.0Official1.2-master\UnityNathan\src\main\AndroidManifest.xml:17:51-71
+92    </application>
+93
+94</manifest>
